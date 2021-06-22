@@ -170,32 +170,6 @@ footer .glyphicon {
     -webkit-transform: translateY(0%);
   }
 }
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .logo {
-    font-size: 150px;
-  }
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .jumbotron {
-    background-image: url('../images/about.png');
-    background-size: 100% 100%;
-    color: #fff;
-    padding: 100px 25px;
-    height: 20vh;
-    font-family: Montserrat, sans-serif;
-  }
-}
 
 .desc {
   padding: 5% 20% ;
@@ -247,11 +221,10 @@ footer .glyphicon {
 }
 
 
-
-
 .slide {
   position: relative;
   background-image: url('../images/slide_bg.png');
+  background-size: 100% 100%;
   background-position: bottom;
   background-repeat: no-repeat;
   width: 100%;
@@ -308,7 +281,6 @@ footer .glyphicon {
 
 
 
-
 .skill_desc{
   text-align: center;
   padding: 10vh 0vh 10vh 0vh;
@@ -326,7 +298,6 @@ footer .glyphicon {
   font-weight: bold;
   font-size: 36px;
   padding: 0vh 0vh 5vh 0vh;
-
 }
 
 
@@ -425,6 +396,7 @@ footer .glyphicon {
 
 .div_essential p, .div_additional p {
   text-align: left !important;
+  margin-left: 27vw;
 }
 
 .support_content input[type=checkbox] {
@@ -433,7 +405,7 @@ footer .glyphicon {
 
 .support_content .div_essential {
   display: inline-block;
-  width: 100vh;
+  width: 100vw;
 }
 
 .support_content button {
@@ -466,7 +438,8 @@ footer .glyphicon {
   text-indent: 1.5em;
   font-size: 18px;
   height: 8vh;
-  width: 46vh;
+  /*width: 46vh;*/
+  width: 22vw;
   vertical-align: middle;
 }
 
@@ -477,7 +450,7 @@ footer .glyphicon {
 
 .support_content .div_additional {
   display: inline-block;
-  width: 100vh;
+  width: 100vw;
 }
 
 .additional_group {
@@ -492,7 +465,8 @@ footer .glyphicon {
   text-indent: 1.5em;
   font-size: 18px;
   height: 8vh;
-  width: 46vh;
+  /*width: 46vh;*/
+  width: 22vw;
   vertical-align: middle;
 }
 
@@ -504,7 +478,8 @@ footer .glyphicon {
   text-indent: 1.5em;
   font-size: 18px;
   height: 8vh;
-  width: 46vh;
+  /*width: 46vh;*/
+  width: 22vw;
   vertical-align: middle;
   background: url('../images/select_arrow.png') no-repeat 90% 50%; 
   -webkit-appearance: none;
@@ -520,7 +495,7 @@ footer .glyphicon {
   text-indent: 1.5em;
   font-size: 18px;
   height: 30vh;
-  width: 99vh;
+  width: 47.5vw;
   margin-top: 3vh;
   padding-top: 2vh;
   vertical-align: middle;
@@ -531,7 +506,6 @@ footer .glyphicon {
   color: #C7C7C7;
   font-weight: 500;
 }
-
 
 .start {
   background-image: url('../images/start_bg.png'); z-index:2;
@@ -598,11 +572,11 @@ footer .glyphicon {
 
 .footer_content .footer_title {
   display: inline-flex;
-  width: 100vh;
+  width: 100vw;
 }
 
 .footer_img {
-   width: 26%;
+  width: 26%;
   height: 83px;
 }
 
@@ -621,4 +595,122 @@ footer .glyphicon {
 
 input[type="text"]:focus, textarea:focus {
   outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+  .desc {
+    padding: 0% 12% !important;
+    font-size: 4vw !important;
+  }
+  .additional_group textarea{
+    width: 95% !important;
+  }
+  .div_essential p, .div_additional p {
+    margin-left: 4vw !important;
+  }
+  .div_essential input[type="text"] {
+    width: 43vw !important;
+  }
+  .additional_group input {
+    width: 43vw !important;
+  }
+  .additional_group select {
+    width: 43vw !important;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .jumbotron {
+    background-image: url('../images/about.png');
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 115px 25px;
+    height: 20vh;
+    font-family: Montserrat, sans-serif;
+  } 
+  .attendance {
+    background-image: url('../images/attendance.png');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+  .calendar {
+    background-image: url('../images/calendar.png');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+  .cost {
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+  .desc button {
+    font-size: 4vw;
+    width: 30vw;
+    height: 8vw;
+    margin-top: 2vw;
+  }
+  .slide {
+    height: 60vw;
+    margin-top: 10vw;
+  }
+  .swiper-slide.swiper-slide-active p {
+    font-size: 4vw;
+  }
+  .swiper-slide img {
+    margin-left: 1vw;
+  }
+  .swiper-wrapper {
+    height: 42vw !important;
+  }
+  .swiper-slide.swiper-slide-active img {
+    margin-top: -10px;
+  }
+  .skill_desc ul li img {
+    width: 20vw;
+  }
+  .left_title{
+    font-weight: bold;
+    font-size: 4vw;
+    padding: 5vw 0vw 5vw 0vw;
+  }
+  .left_comment {
+    vertical-align: middle;
+    padding: 4vh 0vh 0vh 3vh;
+    width: 48vw;
+  }
+  .left_comment p {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #707070;
+  }
+
+  .right_title{
+    font-size: 4vw;
+    padding: 0vw 0vw 5vw 0vw;
+  }
+
+  .right_comment {
+    float: right;
+    vertical-align: middle;
+    padding: 4vw 0vw 3vw 0vw;
+    width: 39vw;
+  }
+
+  .right_comment p {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #707070;
+  }
 }
