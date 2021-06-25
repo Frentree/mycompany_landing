@@ -21,7 +21,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#myPage" style="background-image: url('images/logo.png'); background-size: 100% 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a class="navbar-brand" href="#myPage" style="background-image: url('images/logo.png'); background-size: 100% 80%;
+          background-repeat: no-repeat;
+          background-position: center;
+        ">&nbsp;&nbsp;&nbsp;&nbsp;</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -175,8 +178,10 @@
       <p>근태 관리, 스케줄 관리, 연차와 경비정산까지!</p>
       <p>통합 근태관리 솔루션 마이컴퍼니, 지금 시작해보세요!</p>
       <div class="btn_area">
-        <button class="btn_sign_up">회원가입</button>
-        <button class="btn_download" style="margin-left: 8vh;">다운로드</button>
+        <!-- <button class="btn_sign_up">회원가입</button>
+        <button class="btn_download" style="margin-left: 8vh;">다운로드</button> -->
+        <img src="images/playstore.png" onclick="goPlayStore();">
+        <img src="images/appstore.png" onclick="goAppStore();">
       </div>
     </div>
   </div>
@@ -192,10 +197,11 @@
           <p>TEL : 02-3775-0071 e-mail : info@frentree.com</p>
           <p>Copyright ⓒ 2018(주)프렌트리 - All rights reserved</p>
         </div>
+        <div class="footer_link">
+          <img src="images/facebook.png">
+        </div>
       </div>
-      <div class="footer_link">
-        <img src="images/facebook.png">
-      </div>
+
     </div>
   </div>
 
@@ -276,6 +282,13 @@
     });
 
   })
+  function goPlayStore(){
+    alert('playstore');
+  }
+
+  function goAppStore(){
+    alert('appstore');
+  }
   </script>
 
 </body>
