@@ -677,6 +677,7 @@ input[type="text"]:focus, textarea:focus {
   }
   .swiper-slide.swiper-slide-active p {
     font-size: 4vw;
+    width: max-content;
   }
   .swiper-slide img {
     margin-left: 1vw;
