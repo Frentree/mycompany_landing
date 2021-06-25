@@ -193,7 +193,7 @@ footer .glyphicon {
   color: #707070 !important;
   background-color: #f0f0f0;
   font-weight: bold;
-  width: max-content;
+  width: 20vh;
   height: 6vh;
   line-height: 100%;
 }
@@ -669,6 +669,7 @@ input[type="text"]:focus, textarea:focus {
   .desc button {
     color: #707070 !important;
     font-size: 4vw;
+    width: max-content;
     height: 8vw;
     margin-top: 2vw;
   }
@@ -721,6 +722,9 @@ input[type="text"]:focus, textarea:focus {
     font-size: 2vw;
     font-weight: 500;
     color: #707070;
+  }
+  .support_content {
+    text-align: unset;
   }
   .footer_content .footer_title {
     display: block;
