@@ -191,6 +191,7 @@ footer .glyphicon {
   border-radius: 40px;
   border: 0;
   color: #707070 !important;
+  background-color: #f0f0f0;
   font-weight: bold;
   width: 20vh;
   height: 6vh;
@@ -666,6 +667,7 @@ input[type="text"]:focus, textarea:focus {
     height: 20vh;
   }
   .desc button {
+    color: #707070 !important;
     font-size: 4vw;
     width: 30vw;
     height: 8vw;
