@@ -669,7 +669,6 @@ input[type="text"]:focus, textarea:focus {
   .desc button {
     color: #707070 !important;
     font-size: 4vw;
-    width: 30vw;
     height: 8vw;
     margin-top: 2vw;
   }
