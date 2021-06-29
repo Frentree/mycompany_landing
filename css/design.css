@@ -749,6 +749,5 @@ input[type="text"]:focus, textarea:focus {
 
 }
 .body {
-  width: 100% !important;
   overflow-x: clip !important;
 }
