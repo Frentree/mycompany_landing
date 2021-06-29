@@ -561,7 +561,7 @@ footer .glyphicon {
 }
 
 .footer {
-  background-color: #707070;
+  /*background-color: #707070;*/
   width: 100%;
   /*padding: 10vh 0vh 10vh 0vh;*/
 }
@@ -596,6 +596,7 @@ footer .glyphicon {
 
 .footer_desc {
   width: 50%;
+  color: #707070;
 }
 
 .footer_link {
@@ -741,9 +742,13 @@ input[type="text"]:focus, textarea:focus {
     display: block;
     text-align: center;
   }
+  .body {
+    width: 110% !important;
+    overflow-x: clip !important;
+  }
 
 }
 .body {
-  width: 110% !important;
+  width: 100% !important;
   overflow-x: clip !important;
 }
